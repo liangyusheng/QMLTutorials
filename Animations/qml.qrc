@@ -1,0 +1,8 @@
+<RCC>
+    <qresource prefix="/">
+        <file>main.qml</file>
+        <file>MyAnimation.qml</file>
+        <file>rocket.png</file>
+        <file>sky.jpg</file>
+    </qresource>
+</RCC>
