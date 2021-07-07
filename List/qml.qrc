@@ -1,0 +1,8 @@
+<RCC>
+    <qresource prefix="/">
+        <file>main.qml</file>
+        <file>List.qml</file>
+        <file>List2.qml</file>
+        <file>List3.qml</file>
+    </qresource>
+</RCC>
