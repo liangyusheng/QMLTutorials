@@ -1,0 +1,10 @@
+<RCC>
+    <qresource prefix="/">
+        <file>main.qml</file>
+        <file>ColumnDemo.qml</file>
+        <file>RowDemo.qml</file>
+        <file>GridDemo.qml</file>
+        <file>FlowDemo.qml</file>
+        <file>RepeaterDemo.qml</file>
+    </qresource>
+</RCC>

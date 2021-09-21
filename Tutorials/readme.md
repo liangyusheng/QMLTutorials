@@ -229,3 +229,31 @@ file: CustomButton.qml
 // 点击图片3,（逆时针）旋转图片3
 ```
 
+##### 定位元素(Positioning Element)
+
+---
+
+``` qml
+//! See 'Positioning Demo'
+// 行布局
+RowDemo.qml
+spacing: x		// 间隔 x
+
+// 列布局
+ColumnDemo.qml
+spacing: x 		// 间隔 x
+
+// 栅格布局
+GridDemo.qml
+rows: x			// x 行
+columns: y		// y 列
+
+// 流布局
+Flow.qml
+spacing: x 		// 间隔 x
+
+// 重复元素
+RepeaterDemo.qml
+model: x		// 重复 x 次
+```
+
