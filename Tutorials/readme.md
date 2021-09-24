@@ -261,7 +261,7 @@ model: x		// 重复 x 次
 
 ---
 
-##### 文本输入(TextInput)
+##### 文本输入 (TextInput)
 
 ``` qml 
 // 文本输入允许用户输入一行文本。这个元素支持使用正则表达式验证器来限制输入和输入掩码的模式设置。
@@ -270,18 +270,18 @@ model: x		// 重复 x 次
 //! 文本编辑见 'TextEditDemo.qml'
 ```
 
-##### 按键元素(Key Element)
+##### 按键元素 (Key Element)
 
 ``` qml
 // See 'KeyDemo'
 // 实现了一个按键移动矩形的功能，按下 Esc 可退出程序。
 ```
 
-#### 动态元素(Fluid Elements)
+#### 动态元素 (Fluid Elements)
 
 ---
 
-#### 动画(Animations)
+#### 动画 (Animations)
 
 ---
 
@@ -292,5 +292,19 @@ model: x		// 重复 x 次
 // See 'AnimationsDemo'
 // 实现了火箭从左到右，由上而下移动，图像缩放效果。
 // 使用了 NumberAnimation on XX { }
+```
+
+##### 动画元素 (Animation Elements)
+
+**PropertyAnimation** (属性动画)- 使用属性值改变播放的动画	（See 'PropertyAnimationDemo'）
+**NumberAnimation** (数字动画)- 使用数字改变播放的动画	     （See 'NumberAnimationDemo'）
+**ColorAnimation** (颜色动画)- 使用颜色改变播放的动画			 （See 'ColorAnimationDemo'）
+**RotationAnimation** (旋转动画)- 使用旋转改变播放的动画        （See 'RotationAnimation'）
+
+``` QML
+// PropertyAnimationDemo 实现了
+// NumberAnimationDemo 见上一小节 - 'AnimationDemo'
+// ColorAnimationDemo 实现了
+// RotationAnimation 实现了
 ```
 
