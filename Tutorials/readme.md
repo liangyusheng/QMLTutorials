@@ -268,5 +268,10 @@ model: x		// 重复 x 次
 //! 文本编辑见 'TextEditDemo.qml'
 ```
 
+##### 按键元素(Key Element)
 
+``` qml
+// See 'KeyDemo'
+// 实现了一个按键移动矩形的功能，按下 Esc 可退出程序。
+```
 
