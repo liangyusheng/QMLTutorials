@@ -305,6 +305,6 @@ model: x		// 重复 x 次
 // PropertyAnimationDemo 实现了 'NumberAnimation on scale {}' 缩放效果。
 // NumberAnimationDemo 见上一小节 - 'AnimationDemo'。
 // ColorAnimationDemo 实现了颜色渐变效果。
-// RotationAnimation 实现了
+// RotationAnimation 实现了旋转效果。
 ```
 
