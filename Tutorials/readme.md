@@ -296,15 +296,44 @@ model: x		// 重复 x 次
 
 ##### 动画元素 (Animation Elements)
 
-**PropertyAnimation** (属性动画)- 使用属性值改变播放的动画	（See 'PropertyAnimationDemo'）
-**NumberAnimation** (数字动画)- 使用数字改变播放的动画	     （See 'NumberAnimationDemo'）
-**ColorAnimation** (颜色动画)- 使用颜色改变播放的动画			 （See 'ColorAnimationDemo'）
-**RotationAnimation** (旋转动画)- 使用旋转改变播放的动画        （See 'RotationAnimation'）
+---
+
+- **PropertyAnimation** (属性动画)- 使用属性值改变播放的动画	（See 'PropertyAnimationDemo'）
+- **NumberAnimation** (数字动画)- 使用数字改变播放的动画	     （See 'NumberAnimationDemo'）
+- **ColorAnimation** (颜色动画)- 使用颜色改变播放的动画			 （See 'ColorAnimationDemo'）
+- **RotationAnimation** (旋转动画)- 使用旋转改变播放的动画        （See 'RotationAnimation'）
 
 ``` QML
 // PropertyAnimationDemo 实现了 'NumberAnimation on scale {}' 缩放效果。
 // NumberAnimationDemo 见上一小节 - 'AnimationDemo'。
 // ColorAnimationDemo 实现了颜色渐变效果。
 // RotationAnimation 实现了旋转效果。
+```
+
+​		与此同时，QML 还提供了下面动画（待学习）
+
+- **PauseAnimation** (停止动画) - 运行暂停一个动画
+- **SequentialAnimation** (顺序动画) - 允许动画有序播放
+- **ParallelAnimation** (并行动画) - 允许动画同时播放
+- **AnchorAnimation** (锚定动画) - 使用锚定改变播放的动画
+- **ParentAnimation** (父元素动画) - 使用父对象改变播放的动画
+- **SmotthedAnimation** (平滑动画) - 跟踪一个平滑值播放的动画
+- **SpringAnimation** (弹簧动画) - 跟踪一个弹簧变换的值播放的动画
+- **PathAnimation** (路径动画) - 跟踪一个元素对象的路径的动画
+- **Vector3dAnimation** (3D容器动画) - 使用QVector3d值改变播放的动画
+
+##### 应用动画(Applying Animations)
+
+---
+
+动画可以通过以下几种方式来应用:
+
+- 属性动画 - 在元素完整加载后自动运行
+- 属性动作 - 当属性值改变时自动运行
+- 独立运行动画 - 使用start()函数明确指定运行或者running属性被设置为动画(Animations) true (比如通过属性绑定)
+
+``` qml
+// StandaloneAnimationDemo 标准动画
+// 实现了 y 坐标平移效果
 ```
 
