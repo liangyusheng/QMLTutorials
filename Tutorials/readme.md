@@ -351,3 +351,18 @@ model: x		// 重复 x 次
 // 实现了 rocket 45 度从左向右从上到下移动
 ```
 
+##### 顺序动画（Sequential Animation）
+
+---
+
+使用场景：
+
+- 执行多个动画
+- 按照顺序执行
+
+``` qml
+// See 'SequentialAnimationDemo'
+// 不同于 ParallelAnimation 是并行执行的
+// 不可设置 'loops: Animation.Infinite' 否则后续的动画无法触发！
+```
+

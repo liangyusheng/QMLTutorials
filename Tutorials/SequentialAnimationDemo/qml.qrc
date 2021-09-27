@@ -1,0 +1,7 @@
+<RCC>
+    <qresource prefix="/">
+        <file>main.qml</file>
+        <file>SequentialAnimationDemo.qml</file>
+        <file>rocket.png</file>
+    </qresource>
+</RCC>
