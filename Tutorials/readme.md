@@ -366,3 +366,14 @@ model: x		// 重复 x 次
 // 不可设置 'loops: Animation.Infinite' 否则后续的动画无法触发！
 ```
 
+##### 状态(States)
+
+- 状态通过它的状态名来鉴别,由组成它的一系列简单的属性来改变元素。
+- 另一种切换属性的方法是使用状态元素的 when 属性。when 属性能够被设置为一个表达式的结果,当结果为 true 时,状态被使用。
+
+``` qml
+// See 'StatusDemo'
+// 定义了 '交通灯'，点击 '绿灯' -> '红灯'，点击 '红灯' -> '绿灯'
+// StatusDemo2 是运用 'ColorAnimation' 实现 'StatusDemo'
+```
+
