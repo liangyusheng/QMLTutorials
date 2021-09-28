@@ -366,7 +366,7 @@ model: x		// 重复 x 次
 // 不可设置 'loops: Animation.Infinite' 否则后续的动画无法触发！
 ```
 
-##### 状态(States)
+##### 状态 (States)
 
 - 状态通过它的状态名来鉴别,由组成它的一系列简单的属性来改变元素。
 - 另一种切换属性的方法是使用状态元素的 when 属性。when 属性能够被设置为一个表达式的结果,当结果为 true 时,状态被使用。
@@ -375,5 +375,19 @@ model: x		// 重复 x 次
 // See 'StatusDemo'
 // 定义了 '交通灯'，点击 '绿灯' -> '红灯'，点击 '红灯' -> '绿灯'
 // StatusDemo2 是运用 'ColorAnimation' 实现 'StatusDemo'
+```
+
+#### 模型-视图-代理 (Model-View-Delegate)
+
+##### 基础模型 (Basic Model)
+
+- Repeater 元素用于实现子元素的标号。
+- 每个子元素都拥有一个可以访问的属性 index, 用于区分不同的子元素。
+
+``` qml
+// See 'RepeaterDemo'
+// Repeater 有 model: 5 表示重复 5 次。
+// modelData 可以获取到 model: ["A", "B", "C"] 中的元素。
+// index 可以获取到重复元素的索引。
 ```
 
