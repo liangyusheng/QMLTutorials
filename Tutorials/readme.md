@@ -400,3 +400,14 @@ model: x		// 重复 x 次
 // 默认模式下,它可以在内容最后继续伸展,然后反弹回去,这个信号告诉用户已经到达内容的末尾。
 ```
 
+##### （滚动条）方向 (Orientation)
+
+链表视图的方向由属性 orientation 控制。它能够被设置为默认值 ListView.Vertical 或者 ListView.Horizontal。
+
+``` qml
+// See 'ListViewVerticalDemo'
+// 水平链表视图默认的元素顺序方向是由左到右。可以通过设置 layoutDirection 属性来控制元素顺序方向,
+// 它可以设置为 Qt.LeftToRight 或者 Qt.RightToLeft。
+// orientation: ListView.Horizontal
+```
+
