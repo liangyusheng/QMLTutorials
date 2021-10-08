@@ -411,3 +411,14 @@ model: x		// 重复 x 次
 // orientation: ListView.Horizontal
 ```
 
+##### 键盘导航和高亮
+
+首先是 focus 属性设置为 true, 它设置链表视图能够获得键盘焦点。然后是 highlight 属性, 指出使用的高亮代理元素。
+
+``` qml
+//! See '149-ListViewHighlightDemo'
+// 实现了使用上下键选择 item 效果。
+// focus: true
+// highlight: highlightComponent
+```
+
