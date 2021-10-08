@@ -105,7 +105,7 @@
 
 ---
 
-​		Rectangle(矩形框)是基本元素对象的一个扩展，增加了一个颜色来填充它。它还支持边界的定义，使用border.color(边界颜色)，border.width(边界宽度)来自定义边界。你可以使用radius(半径)属性来创建一个圆角矩形。
+​		Rectangle (矩形框) 是基本元素对象的一个扩展，增加了一个颜色来填充它。它还支持边界的定义，使用border.color (边界颜色)，border.width (边界宽度)来自定义边界。你可以使用 radius(半径) 属性来创建一个圆角矩形。
 
 ``` qml
 //! See 'RectangleDemo'
@@ -307,7 +307,7 @@ model: x		// 重复 x 次
 // PropertyAnimationDemo 实现了 'NumberAnimation on scale {}' 缩放效果。
 // NumberAnimationDemo 见上一小节 - 'AnimationDemo'。
 // ColorAnimationDemo 实现了颜色渐变效果。
-// RotationAnimation 实现了旋转效果。
+// RotationAnimationDemo 实现了旋转效果。
 ```
 
 ​		与此同时，QML 还提供了下面动画（待学习）
@@ -389,5 +389,14 @@ model: x		// 重复 x 次
 // Repeater 有 model: 5 表示重复 5 次。
 // modelData 可以获取到 model: ["A", "B", "C"] 中的元素。
 // index 可以获取到重复元素的索引。
+```
+
+##### 动态视图 (Dynamic Views)
+
+``` qml
+// See 'ListViewDemo'
+// ListView 通过设置 clip 属性为 true, 来激活裁剪功能。
+// ListView (列表视图) 是一个滚动区域。它支持惯性滚动。
+// 默认模式下,它可以在内容最后继续伸展,然后反弹回去,这个信号告诉用户已经到达内容的末尾。
 ```
 
