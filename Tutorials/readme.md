@@ -422,3 +422,14 @@ model: x		// 重复 x 次
 // highlight: highlightComponent
 ```
 
+##### 网格视图 (The GridView)
+
+网格视图 (GridView) 使用了一个二维数组来存放元素，而链表视图 (ListView) 是使用的线性链表来存放元素。
+
+``` qml
+// See 'GridViewDemo'
+// 实现网格视图，鼠标点击后网格缩小，颜色加深；释放鼠标后网格恢复，颜色恢复。
+// 利用 NumberAnimation 实现缩小、放大
+// 利用 ColorAnimation 实现渐变色
+```
+
