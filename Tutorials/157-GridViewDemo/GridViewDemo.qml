@@ -65,7 +65,7 @@ Rectangle {
                 id: toLightColor
                 target: rect
                 properties: 'color'
-                from: "green"
+                from: rect.color
                 to: "lightGreen"
                 duration: 350
                 loops: 1
