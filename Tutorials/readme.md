@@ -433,3 +433,11 @@ model: x		// 重复 x 次
 // 利用 ColorAnimation 实现渐变色
 ```
 
+##### ListView（ListModel）添加元素
+
+``` qml
+// See 'ViewAppendItem'
+// 实现点击 '+' 按钮后增加 View 元素
+//（基于上面的 Demo）
+```
+
