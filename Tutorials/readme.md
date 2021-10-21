@@ -441,3 +441,11 @@ model: x		// 重复 x 次
 //（基于上面的 Demo）
 ```
 
+##### 变形的代理（ShapeShiftingDelegates）
+
+``` qml
+// See '166-ShapeShiftingDelegatesDemo'
+// 按照 QMLBook 的不完全实现
+// 实现一个 ListView, View 最右边包含图片
+```
+
