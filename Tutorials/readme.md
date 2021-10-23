@@ -468,6 +468,22 @@ model: x		// 重复 x 次
 ``` qml
 // for Arch Linux
 // pacman -S qt5-xmlpatterns
-
+//  还没搞懂
 ```
+
+#### 画布元素（Canvas Element）
+
+``` QML
+// 'See CanvasDemo'
+// 绘制了一个矩形
+
+/*
+ * 典型绘制命令调用如下
+ * 1. 装载画笔或者填充模式
+ * 2. 创建绘制路径
+ * 3. 使用画笔或者填充绘制路径
+ */
+```
+
+
 
