@@ -449,3 +449,25 @@ model: x		// 重复 x 次
 // 实现一个 ListView, View 最右边包含图片
 ```
 
+##### 路径视图 (The PathView)
+
+它创建了一个可以让子项沿着任意路径移动的视图。沿着相同的路径，使用缩放 (scale)，透明 (opacity) 等元素可以更加详细的控制过程。
+
+- pathItemCount：它控制了一次可⻅的子项总数。
+- preferredHighLightBegin：属性控制了高亮区间。
+- preferredHighlightEnd 与 highlightRangeMode：控制了当前项怎样沿着路径显示。
+
+``` QML
+// '没成功'
+```
+
+##### XML模型 (A Model from XML)
+
+- QML 提供了 XmlListModel 元素来包装 XML 数据。
+
+``` qml
+// for Arch Linux
+// pacman -S qt5-xmlpatterns
+
+```
+
