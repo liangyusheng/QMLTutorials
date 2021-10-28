@@ -508,5 +508,12 @@ model: x		// 重复 x 次
 }}
 ```
 
+##### 转换 (Transformation)
+
+``` qml
+// See 'TransformationDemo'
+// 使用 ctx.translate() 来重置坐标
+```
+
 
 
