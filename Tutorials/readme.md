@@ -468,7 +468,7 @@ model: x		// 重复 x 次
 ``` qml
 // for Arch Linux
 // pacman -S qt5-xmlpatterns
-//  还没搞懂
+// 还没搞懂
 ```
 
 #### 画布元素（Canvas Element）
@@ -483,6 +483,19 @@ model: x		// 重复 x 次
  * 2. 创建绘制路径
  * 3. 使用画笔或者填充绘制路径
  */
+```
+
+##### 渐变 (Gradients)
+
+``` qml 
+// See 'GradientDemo'
+// 实现了一个渐变颜色的矩形
+// 
+// 在 onPaint: {} 中定义一个 gradient = ctx.crateLinearGradient(/* 参数为线性渐变的范围 */)
+// gradient.addColorStop(/* 开始的颜色强度，颜色 */)
+// gradient.addColorStop(/* 结束的颜色强度，颜色 */)
+// 调用 ctx.fillStyle = gradient /* 配置渐变色到上下文 */
+// 调用 ctx.fillRect() 填充区域
 ```
 
 
