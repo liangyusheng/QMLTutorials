@@ -474,7 +474,7 @@ model: x		// 重复 x 次
 #### 画布元素（Canvas Element）
 
 ``` QML
-// 'See CanvasDemo'
+// \See 'CanvasDemo'
 // 绘制了一个矩形
 
 /*
@@ -488,7 +488,7 @@ model: x		// 重复 x 次
 ##### 渐变 (Gradients)
 
 ``` qml 
-// See 'GradientDemo'
+// \See 'GradientDemo'
 // 实现了一个渐变颜色的矩形
 // 
 // 在 onPaint: {} 中定义一个 gradient = ctx.crateLinearGradient(/* 参数为线性渐变的范围 */)
@@ -496,6 +496,16 @@ model: x		// 重复 x 次
 // gradient.addColorStop(/* 结束的颜色强度，颜色 */)
 // 调用 ctx.fillStyle = gradient /* 配置渐变色到上下文 */
 // 调用 ctx.fillRect() 填充区域
+```
+
+##### 图片 (Images)
+
+``` QML
+// \See 'ImageDemo'
+// 使用画布（Canvas）绘制图片
+// Canvas { onPaint: { 
+		// 使用 ctx.drawImage('图片', (起始坐标)) 来绘制图片
+}}
 ```
 
 
